@@ -1,0 +1,12 @@
+.icon-container {
+    display: flex;
+    justify-content: center;
+    /* Alineación horizontal en el centro */
+    align-items: center;
+    /* Alineación vertical en el centro */
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+  

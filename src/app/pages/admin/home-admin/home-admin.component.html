@@ -1,0 +1,24 @@
+<div class="navbar-container">
+    <app-admin-navbar></app-admin-navbar>
+</div>
+<div class="container">
+    <br>
+    <h1 class="display-4  text-center textRed">Administración de Battle Way</h1>
+    <br>
+    <h2 class="text-center textBlue">Juegos disponibles en la plataforma</h2>
+    <br>
+    <div class="card-container">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let game of games | async">
+                <div class="card">
+                    <img [src]="game.imageURL" alt="Juego 1" class="card-image">
+                    <br>
+                    <div class="card-content" style="text-align: center;">
+                        <h3 style="color: white;">{{game.name}}</h3>
+                        <p>{{game.company}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

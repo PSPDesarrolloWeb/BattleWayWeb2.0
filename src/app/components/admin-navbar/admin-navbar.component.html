@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg p-0 m-0">
+  <div class="container-fluid">
+    <a class="navbar-brand nav-text-icon" href="homeAdmin"><img src="assets/icon/logoBlue.png" alt="DBK Logo"
+        height="72">Battle Way Administración</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+    <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto ">
+        <li class="nav-item">
+          <a class="nav-link mx-2 active" aria-current="page" href="/tournaments"><i class="bi bi-columns-gap"></i> Torneos</a>
+        </li>
+        <li class="nav-item dropdown"><a class="nav-link mx-2 active" href="/points"><i class="bi bi-coin"></i> Puntos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link mx-2 dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-fill"></i> Jugadores
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Listado</a></li>
+            <li><a class="dropdown-item" href="#">Reportes</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item dropdown flare">
+          <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i> {{ username }}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Mi cuenta</a></li>
+            <li><a class="dropdown-item" (click)="logout()">Cerrar sesión</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

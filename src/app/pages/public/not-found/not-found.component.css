@@ -1,0 +1,34 @@
+.notfound {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Esto asegura que el div ocupe toda la altura de la pantalla */
+  }
+  
+  .notfound > * {
+    margin: 20px; /* Añade un espacio entre los elementos */
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  

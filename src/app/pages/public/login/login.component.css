@@ -1,0 +1,90 @@
+
+.container{
+    padding-top: 100px;
+    display: grid;
+    place-items: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card {
+    position: relative;
+    background-color: #15171d;
+    border: none;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  .card::before {
+    content: "";
+    position: absolute;
+    width: 5000px;
+    height: 5000px;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #00ffd5;
+    opacity: 0;
+    z-index: -1;
+    animation: neon-glow 3s linear infinite;
+  }
+  
+
+  
+  @keyframes neon-glow {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .card-header {
+    background-color: #303440;
+    border-bottom: none;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    background-color: #1b1e26;
+    color: #fff;
+    border: none;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    
+  }
+  
+  .btn:hover {
+    background-color: #f54336;
+    color: white;
+  }
+  
+  .btn:focus {
+    box-shadow: none;
+  }
+  

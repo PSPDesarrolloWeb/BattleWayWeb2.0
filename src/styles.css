@@ -1,0 +1,122 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    overflow-x: hidden !important;
+
+}
+
+
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+    /* Cambia la altura de la barra de desplazamiento */
+    background-color: #363636;
+    /* Cambia el color de fondo de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a0a0a0;
+    /* Cambia el color de la barra de desplazamiento */
+    border-radius: 4px;
+    /* Cambia el radio de las esquinas de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+    /* Cambia el color de la barra de desplazamiento al colocar el cursor sobre ella */
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: white;
+    /* Cambia el color de la barra de desplazamiento al hacer clic sobre ella */
+}
+
+
+ /* DISEÑOS DE NEÓN 
+.neon-text-green {
+    color: #39ff14;
+    text-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14;
+  }
+  
+  .neon-text-blue {
+    color: #00f7ff;
+    text-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff, 0 0 30px #00f7ff;
+  }
+  
+  .neon-text-pink {
+    color: #ff00ee;
+    text-shadow: 0 0 10px #ff00ee, 0 0 20px #ff00ee, 0 0 30px #ff00ee;
+  }
+  
+  .neon-text-orange {
+    color: #ff6d00;
+    text-shadow: 0 0 10px #ff6d00, 0 0 20px #ff6d00, 0 0 30px #ff6d00;
+  }
+  
+  .neon-text-yellow {
+    color: #ffd500;
+    text-shadow: 0 0 10px #ffd500, 0 0 20px #ffd500, 0 0 30px #ffd500;
+  }
+  
+  .neon-icon-yellow {
+    color: #ffd500;
+    text-shadow: 0 0 10px #ffd500, 0 0 20px #ffd500, 0 0 30px #ffd500;
+  }
+  
+  .neon-text-purple {
+    color: #8a00ff;
+    text-shadow: 0 0 10px #8a00ff, 0 0 20px #8a00ff, 0 0 30px #8a00ff;
+  }
+  
+  .neon-text-red {
+    color: #bdbdbd;
+    text-shadow: 0 0 10px #ff3b30, 0 0 20px #ff3b30, 0 0 30px #ff3b30;
+  }
+  
+  .neon-icon-red {
+    color: #bdbdbd;
+    text-shadow: 0 0 10px #ff3b30, 0 0 20px #ff3b30, 0 0 30px #ff3b30;
+  }
+  
+  .neon-text-cyan {
+    color: #00f3ff;
+    text-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff, 0 0 30px #00f3ff;
+  }
+  
+  .neon-icon-cyan {
+    color: #00f3ff;
+    text-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff, 0 0 30px #00f3ff;
+  }
+  
+  .neon-text-lime {
+    color: #00ff6b;
+    text-shadow: 0 0 10px #00ff6b, 0 0 20px #00ff6b, 0 0 30px #00ff6b;
+  }
+  
+  .neon-text-magenta {
+    color: #ff00c7;
+    text-shadow: 0 0 10px #ff00c7, 0 0 20px #ff00c7, 0 0 30px #ff00c7;
+    border: #ff00c7;
+  }
+  
+  .neon-btn {
+    background-color: #ff00f7;
+    box-shadow: 0 0 10px #ff00f7, 0 0 20px #ff00f7, 0 0 30px #ff00f7;
+  }
+  
+  .textBlue {
+    color: #2096f2
+  }
+  
+  .textRed {
+    color: #f44337
+  } */
